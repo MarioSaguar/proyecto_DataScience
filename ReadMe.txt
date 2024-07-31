@@ -16,8 +16,10 @@ A continuación se detallarán los componentes del sistema y las instrucciones d
 	los datos requeridos para que el sistema haga su predicción.
 
 	Aún así, a continuación se detallan las instrucciones de uso:
-	Antes de nada, hay que reconocer que el uso de este código es complicado, y muchas veces da error, aún cuando se siguen todas las instrucciones correctamente.
-	1. hay que ejecutar el notebook por orden, primero las librerías, y luego los drivers del navegador.
+
+	Antes de nada, hay que reconocer que el uso de este código es complicado, y muchas veces da error, aún cuando se sigan todas las instrucciones correctamente.
+
+	1. hay que ejecutar el notebook "Extraccion_datos_WS.ipynb" por orden, primero las librerías, y luego los drivers del navegador.
 	2. a continuación hay que ejecutar las dos funciones ("saca_datos" y "busca_coches"); estas funciones han de estar en el 
 	 propio notebook, no se pueden importar desde un archivo externo ya que no funciona el sistema.
 	3. tras esto, se ejecuta el script de creación de un DataFrame vacío, que será necesario más adelante.
